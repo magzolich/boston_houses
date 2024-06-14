@@ -85,6 +85,8 @@ if p_value < 0.05:
     print("Conclusion: Reject the null hypothesis. There is a significant difference in median value of houses bounded by the Charles river or not.")
 else:
     print("Conclusion: Fail to reject the null hypothesis. There is no significant difference in median value of houses bounded by the Charles river or not.")
+#conslusion
+#p-value < 0.05 -> H0 rejected
 
 # Hypothesis 2: ANOVA (AGE)
 # H0: There is no difference in Median values of houses for each proportion of owner occupied units built prior to 1940.
@@ -106,6 +108,8 @@ if anova_result.pvalue < 0.05:
     print("Conclusion: Reject the null hypothesis. There is a difference in Median values of houses for each proportion of owner occupied units built prior to 1940.")
 else:
     print("Conclusion: Fail to reject the null hypothesis. There is no difference in Median values of houses for each proportion of owner occupied units built prior to 1940.")
+# Conclusion 
+#p-value < 0.05 -> H0 rejected
 
 # Hypothesis 3: Pearson Correlation (NOX and INDUS)
 # H0: There is no relationship between Nitric oxide concentrations and proportion of non-retail business acres per town.
@@ -120,6 +124,8 @@ if p_value < 0.05:
     print("Conclusion: Reject the null hypothesis. There is a relationship between Nitric oxide concentrations and proportion of non-retail business acres per town.")
 else:
     print("Conclusion: Fail to reject the null hypothesis. There is no relationship between Nitric oxide concentrations and proportion of non-retail business acres per town.")
+# conslusion
+# p-value <<0.05 -> reject H0
 
 # Hypothesis 4: Regression analysis (DIS and MEDV)
 # H0: There is no impact of an additional weighted distance to the five Boston employment centres on the median value of owner occupied homes.
